@@ -28,7 +28,8 @@ class Event(models.Model):
     location = models.CharField(max_length=100)
     capacity = ArrayField(models.CharField(max_length=250))
     infolink = models.CharField(max_length=1000)
-    created_by = models.ForeignKey('auth.User', null=True, blank=True, on_delete=models.SET_NULL)
+    created_by = models.ForeignKey(
+        User, null=True, blank=True, on_delete=models.SET_NULL)
     is_attending = models.NullBooleanField(default=None)
     # event = models.ManyToManyField(Guest)
     # guests = models.ForeignKey(Guest)
