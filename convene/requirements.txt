@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 asgiref==3.2.3
+=======
+astroid==2.3.3
+>>>>>>> 9293b4b00b947dbefccce05ef111e37885934b79
 autopep8==1.4.4
 boto3==1.10.41
 botocore==1.13.41
@@ -6,17 +10,32 @@ certifi==2019.11.28
 chardet==3.0.4
 defusedxml==0.6.0
 dj-database-url==0.5.0
+<<<<<<< HEAD
 Django==3.0
+=======
+Django==2.2.6
+>>>>>>> 9293b4b00b947dbefccce05ef111e37885934b79
 django-heroku==0.3.1
 docutils==0.15.2
 gunicorn==20.0.4
 idna==2.8
+<<<<<<< HEAD
 jmespath==0.9.4
+=======
+isort==4.3.21
+jmespath==0.9.4
+lazy-object-proxy==1.4.3
+mccabe==0.6.1
+>>>>>>> 9293b4b00b947dbefccce05ef111e37885934b79
 oauthlib==3.1.0
 psycopg2==2.8.4
 psycopg2-binary==2.8.4
 pycodestyle==2.5.0
 PyJWT==1.7.1
+<<<<<<< HEAD
+=======
+pylint==2.4.4
+>>>>>>> 9293b4b00b947dbefccce05ef111e37885934b79
 python-dateutil==2.8.0
 python3-openid==3.1.0
 pytz==2019.3
@@ -27,5 +46,12 @@ six==1.13.0
 social-auth-app-django==3.1.0
 social-auth-core==3.2.0
 sqlparse==0.3.0
+<<<<<<< HEAD
 urllib3==1.25.7
 whitenoise==5.0.1
+=======
+typed-ast==1.4.0
+urllib3==1.25.7
+whitenoise==5.0.1
+wrapt==1.11.2
+>>>>>>> 9293b4b00b947dbefccce05ef111e37885934b79
