@@ -94,7 +94,7 @@ def signup(request):
 def add_photo(request, event_id):
     event = Event.objects.get(id=event_id)
     S3_BASE_URL = 'https://s3-us-west-1.amazonaws.com/'
-    BUCKET = 'catcollector-dt'
+    BUCKET = 'dog-sitter'
     photo_file = request.FILES.get('photo-file', None)
     if photo_file:
         s3 = boto3.client('s3')
