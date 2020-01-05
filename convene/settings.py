@@ -155,12 +155,5 @@ LOGOUT_REDIRECT_URL = '/'
 
 TIME_INPUT_FORMATS = ['%I:%M %p',]
 
-<<<<<<< HEAD:convene/settings.py
-
 import django_heroku
 django_heroku.settings(locals())
-
-=======
-import django_heroku
-django_heroku.settings(locals())
->>>>>>> 9293b4b00b947dbefccce05ef111e37885934b79:convene/convene/settings.py
